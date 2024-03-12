@@ -61,7 +61,7 @@
         
         var checkedItems = [];
 
-        service.checkOffItem = function(itemQuantity, itemName){
+        service.checkOffItem = function(itemName, itemQuantity){
             var item = {
                 name: itemName,
                 quantity: itemQuantity
